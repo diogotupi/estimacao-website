@@ -29,7 +29,7 @@ To deploy this website to GitHub Pages:
 5. Select "Deploy from a branch"
 6. Choose "main" branch and "/ (root)" folder
 7. Click "Save"
-8. Your website will be available at: `https://yourusername.github.io/repository-name`
+8. Your website will be available at: `(https://diogotupi.github.io/estimacao-website/)`
 
 ## Adding Your Video
 
@@ -47,3 +47,4 @@ Replace the `video.mp4` file with your own video. Make sure it's optimized for w
 - Modern browsers with Clipboard API support
 - Fallback support for older browsers using document.execCommand
 - Mobile-friendly with touch support
+
