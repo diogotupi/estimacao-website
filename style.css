@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Bebas Neue', 'Arial', sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
@@ -24,12 +24,33 @@ body {
     text-align: center;
 }
 
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
 .title {
     color: #333;
     font-size: 2.5rem;
-    margin: 30px 0;
+    margin: 30px 0 10px 0;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+}
+
+.help-message {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    font-style: italic;
 }
 
 .video-container {
@@ -52,6 +73,8 @@ video {
     padding: 15px 30px;
     font-size: 1.1rem;
     font-weight: bold;
+    font-family: 'Bebas Neue', 'Arial', sans-serif;
+    letter-spacing: 1px;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -82,8 +105,16 @@ video {
         margin: 10px;
     }
     
+    .logo {
+        max-width: 150px;
+    }
+    
     .title {
         font-size: 2rem;
+    }
+    
+    .help-message {
+        font-size: 1rem;
     }
     
     .pix-button {
