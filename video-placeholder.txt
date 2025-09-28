@@ -1,0 +1,11 @@
+VIDEO PLACEHOLDER
+================
+
+This is a placeholder file. To complete your website:
+
+1. Replace this file with your actual video file named "video.mp4"
+2. Make sure the video is in MP4 format for best browser compatibility
+3. Keep the file size reasonable for web (under 10MB recommended)
+4. The video will be displayed in the video container on your website
+
+The video element in index.html is already set up to display your video.mp4 file.
