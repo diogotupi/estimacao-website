@@ -18,18 +18,18 @@ body {
     background: white;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    max-width: 600px;
+    padding: 50px 40px;
+    max-width: 700px;
     width: 100%;
     text-align: center;
 }
 
 .logo-container {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 180px;
     height: auto;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
@@ -55,8 +55,8 @@ body {
 
 .title {
     color: #333;
-    font-size: 2.5rem;
-    margin: 30px 0 10px 0;
+    font-size: 2.2rem;
+    margin: 20px 0 15px 0;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     letter-spacing: 2px;
@@ -64,8 +64,8 @@ body {
 
 .help-message {
     color: #e74c3c;
-    font-size: 1.2rem;
-    margin: 0 0 30px 0;
+    font-size: 1.1rem;
+    margin: 0 0 25px 0;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     letter-spacing: 1px;
@@ -73,15 +73,18 @@ body {
 }
 
 .video-container {
-    margin: 30px 0;
+    margin: 25px 0;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-height: 400px;
 }
 
 video {
     width: 100%;
     height: auto;
+    max-height: 400px;
+    object-fit: cover;
     display: block;
 }
 
@@ -89,8 +92,8 @@ video {
     background: linear-gradient(45deg, #25D366, #128C7E);
     color: white;
     border: none;
-    padding: 18px 36px;
-    font-size: 1.32rem;
+    padding: 16px 32px;
+    font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Bebas Neue', 'Arial', sans-serif;
     letter-spacing: 1px;
@@ -98,8 +101,8 @@ video {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
-    margin: 20px 0;
-    min-width: 240px;
+    margin: 15px 0;
+    min-width: 220px;
 }
 
 .pix-button:hover {
@@ -120,31 +123,43 @@ video {
 /* Responsive design */
 @media (max-width: 768px) {
     .container {
-        padding: 20px;
+        padding: 30px 20px;
         margin: 10px;
     }
     
     .logo {
-        max-width: 150px;
+        max-width: 140px;
     }
     
     .logo-text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 8px 16px;
     }
     
     .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin: 15px 0 10px 0;
     }
     
     .help-message {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        margin: 0 0 20px 0;
+    }
+    
+    .video-container {
+        margin: 20px 0;
+        max-height: 300px;
+    }
+    
+    video {
+        max-height: 300px;
     }
     
     .pix-button {
-        padding: 14px 30px;
-        font-size: 1.2rem;
-        min-width: 216px;
+        padding: 14px 28px;
+        font-size: 1.1rem;
+        min-width: 200px;
+        margin: 12px 0;
     }
 }
 
