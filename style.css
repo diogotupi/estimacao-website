@@ -89,8 +89,8 @@ video {
     background: linear-gradient(45deg, #25D366, #128C7E);
     color: white;
     border: none;
-    padding: 15px 30px;
-    font-size: 1.1rem;
+    padding: 18px 36px;
+    font-size: 1.32rem;
     font-weight: bold;
     font-family: 'Bebas Neue', 'Arial', sans-serif;
     letter-spacing: 1px;
@@ -99,7 +99,7 @@ video {
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
     margin: 20px 0;
-    min-width: 200px;
+    min-width: 240px;
 }
 
 .pix-button:hover {
@@ -142,9 +142,9 @@ video {
     }
     
     .pix-button {
-        padding: 12px 25px;
-        font-size: 1rem;
-        min-width: 180px;
+        padding: 14px 30px;
+        font-size: 1.2rem;
+        min-width: 216px;
     }
 }
 
@@ -159,4 +159,3 @@ video {
     animation: success 0.3s ease;
     background: linear-gradient(45deg, #4CAF50, #45a049);
 }
-
