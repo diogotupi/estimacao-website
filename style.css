@@ -48,6 +48,7 @@ body {
     font-family: 'Bebas Neue', 'Arial', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
+    font-style: normal;
     letter-spacing: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
